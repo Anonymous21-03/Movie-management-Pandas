@@ -56,9 +56,11 @@ def main():
         deleteMovie()
     if x==3:
         searchMovie()
+    else:
+        print("wrong input")
     
     print("\nMovies DataFrame:")
-    print(movies)
+    # print(movies)
 
 if __name__ == "__main__":
     main()
